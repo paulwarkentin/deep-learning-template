@@ -1,5 +1,7 @@
 ## DATASETS
-/data/
+/data/interim/*
+/data/processed/*
+/data/raw/*
 !/data/interim/.gitkeep
 !/data/processed/.gitkeep
 !/data/raw/.gitkeep
