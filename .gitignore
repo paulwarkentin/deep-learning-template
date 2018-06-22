@@ -1,0 +1,28 @@
+## DATASETS
+/data/
+!/data/interim/.gitkeep
+!/data/processed/.gitkeep
+!/data/raw/.gitkeep
+
+## PYTHON CACHE
+__pycache__/
+
+## LATEX TEMPORARY FILES
+*.aux
+*.log
+*.toc
+*.idx
+
+## LATEX BEAMER
+*.snm
+*.vrb
+*.nav
+*.out
+
+## BIBTEX
+*.bbl
+*.blg
+
+## MACOS HIDDEN SYSTEM FILES
+.DS_Store
+.MACOS
