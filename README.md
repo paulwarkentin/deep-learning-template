@@ -15,6 +15,7 @@
 ├─ notebooks/                   <- Jupyter notebooks used for experiments
 ├─ models/                      <- pre-trained weights and frozen models
 ├─ src/
+│  ├─ data/                     <- data loader and processing
 │  ├─ models/                   <- model implementations
 │  ├─ utils/                    <- utility functions and classes
 │  └─ ...                       <- files for training, evaluation and inference etc.
