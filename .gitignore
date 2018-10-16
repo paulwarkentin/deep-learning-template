@@ -1,4 +1,6 @@
-## DATASETS
+# >>> CREATED WITH HELP OF https://www.gitignore.io/api/latex
+
+### DATASETS
 /data/interim/*
 /data/processed/*
 /data/raw/*
@@ -6,25 +8,240 @@
 !/data/processed/.gitkeep
 !/data/raw/.gitkeep
 
-## PYTHON CACHE
+### PYTHON CACHE
 __pycache__/
 
-## LATEX TEMPORARY FILES
-*.aux
-*.log
-*.toc
-*.idx
+### JUPYTER NOTEBOOKS
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-## LATEX BEAMER
+### LATEX -- CORE
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+### LATEX -- INTERMEDIATE DOCUMENTS
+*.dvi
+*.xdv
+*-converted-to.*
+
+### LATEX -- BIBLIOGRAPHY
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+### LATEX -- BUILD TOOL
+latex.out/
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+### LATEX -- AUXILIARY AND INTERMEDIATE FILES FROM OTHER PACKAGES
+# ALGORITHMS
+*.alg
+*.loa
+# ACHEMSO
+acs-*.bib
+# AMSTHM
+*.thm
+# BEAMER
+*.nav
+*.pre
 *.snm
 *.vrb
-*.nav
-*.out
+# CHANGES
+*.soc
+# COMMENT
+*.cut
+# CPROTECT
+*.cpt
+# ELSARTICLE
+*.spl
+# ENDNOTES
+*.ent
+# FIXME
+*.lox
+# FEYNMF/FEYNMP
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
+*.tfm
+# (R)(E)LEDMAC/(R)(E)LEDPAR
+*.end
+*.?end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
+*.eledsec[1-9]
+*.eledsec[1-9]R
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
+# GLOSSARIES
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+# GNUPLOTTEX
+*-gnuplottex-*
+# GREGORIOTEX
+*.gaux
+*.gtex
+# HTLATEX
+*.4ct
+*.4tc
+*.idv
+*.lg
+*.trc
+*.xref
+# HYPERREF
+*.brf
+# KNITR
+*-concordance.tex
+# TIKZ - UNCOMMENT TO IGNORE TIKZ IMAGES
+#*.tikz
+#*-tikzDictionary
+# LISTINGS
+*.lol
+# MAKEIDX
+*.idx
+*.ilg
+*.ind
+*.ist
+# MINITOC
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+# MINTED
+_minted*
+*.pyg
+# MOREWRITES
+*.mw
+# NOMENCL
+*.nlg
+*.nlo
+*.nls
+# PAX
+*.pax
+# PDFPCNOTES
+*.pdfpc
+# SAGETEX
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+# SCRWFILE
+*.wrt
+# SYMPY
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
+# PDFCOMMENT
+*.upa
+*.upb
+# PYTHONTEX
+*.pytxcode
+pythontex-files-*/
+# TCOLORBOX
+*.listing
+# THMTOOLS
+*.loe
+# TIKZ & PGF
+*.dpth
+*.md5
+*.auxlock
+# TODONOTES
+*.tdo
+# EASY-TODO
+*.lod
+# XCOLOR
+*.xcp
+# XMPINCL
+*.xmpi
+# XINDY
+*.xdy
+# XYPIC PRECOMPILED MATRICES
+*.xyc
+# ENDFLOAT
+*.ttt
+*.fff
+# LATEXIAN
+TSWLatexianTemp*
 
-## BIBTEX
-*.bbl
-*.blg
+### LATEX -- EDITORS
+# WINEDT
+*.bak
+*.sav
+# TEXPAD
+.texpadtmp
+# LYX
+*.lyx~
+# KILE
+*.backup
+# KBIBTEX
+*~[0-9]*
+# AUTO FOLDER WHEN USING EMACS AND AUCTEX
+./auto/*
+*.el
+# EXPEX FORWARD REFERENCES WITH \GATHERTAGS
+*-tags.tex
+# STANDALONE PACKAGES
+*.sta
 
-## MACOS HIDDEN SYSTEM FILES
+### LATEX -- PATCH
+# GLOSSARIES
+*.glstex
+
+### LATEX -- OTHER
+.pdf
+
+### MACOS -- GENERAL
 .DS_Store
-.MACOS
+.AppleDouble
+.LSOverride
+
+### MACOS -- THUMBNAILS
+._*
+
+### MACOS -- FILES THAT MIGHT APPEAR IN THE ROOT OF THE VOLUME
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+### MACOS -- DIRECTORIES POTENTIALLY CREATED ON REMOTE AFP SHARE
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# <<< END OF FILE
